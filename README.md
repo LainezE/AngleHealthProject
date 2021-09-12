@@ -22,14 +22,14 @@ Note: Logic for post and search routes can be found in `views.py`
 
 You can view all of the products listed in the database by going to the url: 
 
-[link] [local](http://localhost:8000/products/)
+[link] (http://localhost:8000/products/)
 
 In addition, you can view specific products by using the url: 
 **Be sure to replace `str` with a Keyword to be searched.**
 **Be sure to replace `int` with a minimum and maximum price.**
 **if there is no minimum or maximum price you may simply ignore the `int` after `=`**
 
-[link] [local](http://localhost:8000/products/?keyword=str&min_price=int&max_price=int)
+[link] (http://localhost:8000/products/?keyword=str&min_price=int&max_price=int)
 
 ### Testing Post Request using tests.py 
 
