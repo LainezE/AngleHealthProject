@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  anglehealthproject:
+    image: anglehealthproject
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 8000:8000
