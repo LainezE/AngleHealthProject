@@ -47,7 +47,7 @@ This command will test both search and post routes through the tests.py file. If
 
 If you want to see the admin page Django comes with go to url: 
 
-`http://localhost:8000/admin/login/?next=/admin/login`
+[link] http://localhost:8000/admin/login/?next=/admin/login
 
 `username: laineze1`
 `password: 123456`
